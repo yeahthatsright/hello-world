@@ -1,0 +1,9 @@
+@import "./customVariables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../../node_modules/bootstrap-sass/assets/fonts/bootstrap/") !default;
+
+.hi {
+  color: 'blue';
+  height: 10px;
+}
